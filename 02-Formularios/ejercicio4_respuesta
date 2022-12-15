@@ -1,0 +1,7 @@
+<?php
+    $frase = $_POST["frase"];
+    $e =  $_POST["encabezado"];
+
+    echo "<h$e>$frase</h$e>";
+
+?>
